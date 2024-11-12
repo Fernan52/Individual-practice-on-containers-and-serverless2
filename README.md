@@ -1,46 +1,44 @@
-# Creación de 5 Proyectos Usando Docker
+# Creation of 5 Projects Using Docker
 
-Este proyecto tiene como objetivo la creación de cinco aplicaciones independientes, cada una utilizando un lenguaje de programación diferente. Los lenguajes utilizados son **Flask (Python)**, **Go**, **Ruby**, **Java**, y **JavaScript (Node.js)**. Cada uno de estos proyectos está dockerizado para ser ejecutado dentro de un contenedor Docker.
+This project aims to create five independent applications, each using a different programming language. The languages used are **Flask (Python)**, **Go**, **Ruby**, **Java**, and **JavaScript (Node.js)**. Each of these projects is dockerized to run inside a Docker container.
 
-## Tabla de Contenido
+## Table of Contents
 
-1. [Descripción del Proyecto](#descripción-del-proyecto)
-2. [Características](#características)
-3. [Requisitos](#requisitos)
-4. [Instalación y Configuración Local](#instalación-y-configuración-local)
+1. [Project Description](#project-description)
+2. [Features](#features)
+3. [Requirements](#requirements)
+4. [Installation and Local Configuration](#install-and-configure-local)
 
-## Descripción del Proyecto
+## Project Description
 
-Este repositorio contiene cinco proyectos separados, cada uno construido utilizando un lenguaje de programación diferente. El objetivo principal es crear aplicaciones ligeras y microservicios con diferentes tecnologías, todas gestionadas por contenedores Docker para facilitar el despliegue y la ejecución. Además, estos proyectos sirven como ejemplos de cómo crear aplicaciones web sencillas y APIs RESTful usando diversos lenguajes de programación.
+This repository contains five separate projects, each built using a different programming language. The main goal is to create lightweight applications and microservices with different technologies, all managed by Docker containers for ease of deployment and execution. In addition, these projects serve as examples of how to create simple web applications and RESTful APIs using various programming languages.
 
-## Características
+## Features.
 
-- **5 Proyectos Independientes**: Cada uno en un contenedor Docker.
-- **Uso de Diversos Lenguajes**: Python (Flask), Go, Ruby (Sinatra), Java (Spring Boot), JavaScript (Node.js).
-- **Dockerización**: Cada proyecto está completamente dockerizado para facilitar su ejecución en cualquier entorno.
-- **Aplicaciones RESTful**: Todos los proyectos exponen una API RESTful simple.
+- 5 Independent Projects**: Each in a Docker container.
+- Use of several languages**: Python (Flask), Go, Ruby (Sinatra), Java (Spring Boot), JavaScript (Node.js).
+- Dockerization**: Each project is fully dockerized to facilitate its execution in any environment.
+- RESTful applications**: All projects expose a simple RESTful API.
 
-## Requisitos
+## Requirements
 
-Para ejecutar este proyecto localmente, necesitarás los siguientes requisitos:
+To run this project locally, you will need the following requirements:
 
-- [Docker](https://www.docker.com/get-started): Para crear y gestionar los contenedores.
-- [Docker Compose](https://docs.docker.com/compose/): Para facilitar la gestión de múltiples contenedores.
-- [Git](https://git-scm.com/): Para clonar el repositorio.
+- [Docker](https://www.docker.com/get-started): To create and manage containers.
+- Docker Compose](https://docs.docker.com/compose/): To facilitate the management of multiple containers.
+- Git](https://git-scm.com/): To clone the repository.
 
-## Instalación y Configuración Local
+## Local Installation and Configuration
 
-### 1. Clonar el Repositorio
-
-Primero, clona el repositorio a tu máquina local:
+### 1. Clone the Repository
 
 git clone [https://github.com/tu-usuario/nombre-del-repositorio.git
-cd nombre-del-repositorio](https://github.com/Fernan52/Individual-practice-on-containers-and-serverless2.git)
-### 2. Construir y Ejecutar los Contenedores
-Una vez clonado el repositorio, puedes construir y ejecutar los contenedores de los proyectos con Docker Compose. Para hacerlo, ejecuta el siguiente comando:
-Codigo: docker-compose up --build
-### 3. Acceder a las aplicaciones
-Una vez que los contenedores estén en funcionamiento, podrás acceder a la aplicacion a través del siguiente puerto local: http://127.0.0.1:5000
-### 4. Detener los contenedores
-Cuando hayas terminado de trabajar, puedes detener los contenedores ejecutando el siguiente comando en la terminal: docker-compose down
+cd repository-name](https://github.com/Fernan52/Individual-practice-on-containers-and-serverless2.git)
+### 2. Build and Run the Containers
+Once the repository is cloned, you can build and run the project containers with Docker Compose. To do this, run the following command:
+Code: docker-compose up --build.
+### 3. Accessing the applications
+Once the containers are up and running, you will be able to access the application through the following local port: http://127.0.0.1:5000
+### Stop the containers
+When you are done working, you can stop the containers by running the following command in the terminal: docker-compose down
 
