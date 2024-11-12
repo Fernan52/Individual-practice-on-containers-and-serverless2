@@ -8,12 +8,6 @@ Este proyecto tiene como objetivo la creación de cinco aplicaciones independien
 2. [Características](#características)
 3. [Requisitos](#requisitos)
 4. [Instalación y Configuración Local](#instalación-y-configuración-local)
-5. [Uso de Cada Lenguaje](#uso-de-cada-lenguaje)
-    - [Flask (Python)](#flask-python)
-    - [Go](#go)
-    - [Ruby (Sinatra)](#ruby-sinatra)
-    - [Java (Spring Boot)](#java-spring-boot)
-    - [JavaScript (Node.js)](#javascript-nodejs)
 
 ## Descripción del Proyecto
 
@@ -40,6 +34,14 @@ Para ejecutar este proyecto localmente, necesitarás los siguientes requisitos:
 
 Primero, clona el repositorio a tu máquina local:
 
-```bash
+``bash
 git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 cd nombre-del-repositorio
+### 2. Construir y Ejecutar los Contenedores
+Una vez clonado el repositorio, puedes construir y ejecutar los contenedores de los proyectos con Docker Compose. Para hacerlo, ejecuta el siguiente comando:
+Codigo: docker-compose up --build
+### 3. Acceder a las aplicaciones
+Una vez que los contenedores estén en funcionamiento, podrás acceder a la aplicacion a través del siguiente puerto local: http://127.0.0.1:5000
+### 4. Detener los contenedores
+Cuando hayas terminado de trabajar, puedes detener los contenedores ejecutando el siguiente comando en la terminal: docker-compose down
+
