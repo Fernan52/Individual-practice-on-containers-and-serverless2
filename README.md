@@ -34,9 +34,8 @@ Para ejecutar este proyecto localmente, necesitarás los siguientes requisitos:
 
 Primero, clona el repositorio a tu máquina local:
 
-``bash
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-cd nombre-del-repositorio
+git clone [https://github.com/tu-usuario/nombre-del-repositorio.git
+cd nombre-del-repositorio](https://github.com/Fernan52/Individual-practice-on-containers-and-serverless2.git)
 ### 2. Construir y Ejecutar los Contenedores
 Una vez clonado el repositorio, puedes construir y ejecutar los contenedores de los proyectos con Docker Compose. Para hacerlo, ejecuta el siguiente comando:
 Codigo: docker-compose up --build
